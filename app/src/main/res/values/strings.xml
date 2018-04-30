@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">clbaileyi</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">tecmmedcore</string>
+    <string name="acceder">Acceder</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Calificación</string>
+    <string name="title_dashboard">Crga.Academica</string>
+    <string name="title_notifications">Configuración</string>
 </resources>

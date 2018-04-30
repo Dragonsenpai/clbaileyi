@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainLogin"
+    android:background="#666666" >
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:background="#858585"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="INICIAR SESION"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="72dp"
+            android:background="#BE5450"
+            android:text="Acceder"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/idUser"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Matricula"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <EditText
+            android:id="@+id/idPass"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#ffffff"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="185dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
